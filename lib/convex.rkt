@@ -146,27 +146,4 @@
                                          nb))]))
   
 
-;
-; TEST
-;
-
-;(define s (convex-load "../model/icosahedron.obj"))
-;(convex-scale s 2)
-;(convex-rotate s 1 0)
-;(visible-face? s 0)
-;(convex-visible-faces s)
-;(convex-face-coord s 0)
-;(define square (list (make-posn 0 0) ; clockwise square
-;                     (make-posn 0 2)
-;                     (make-posn 2 2)
-;                     (make-posn 2 0)))
-;(convex-inside? square (make-posn 1 1))
-;(convex-inside? square (make-posn 3 3))
-
-;(define s (convex-load "../model/cube.obj"))
-;(define g (convex->graph s))
-;(define v (car (cdr g)))
-;(Vertex-id v)
-;(Vertex-neigh v)
-
   
