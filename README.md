@@ -22,7 +22,7 @@ First, using associate letters choose a solid name to play with.
 
 Place the mouse on a solid face and press keys to action.
 
-![key binding](img/key binding.png)
+![key_binding](img/key_binding.png)
 
 - **E**  reveal a face / query the number a mines around
 - **F**  put flag / remove flag
